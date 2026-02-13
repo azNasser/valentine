@@ -2,19 +2,19 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const slidesData = [
         { 
-            src: "premier.jpg", 
+            src: "Premier.jpg", 
             text: "Merci d'être là pour moi" 
         },
         { 
-            src: "deuxieme.jpg", 
+            src: "Deuxieme.jpg", 
             text: "D'être aussi rayonante et précieuse" 
         },
         { 
-            src: "troisieme.jpg", 
+            src: "Troisieme.jpg", 
             text: "Ta présence est une bénédiction et un don du ciel" 
         },
         { 
-            src: "quatrieme.jpg", 
+            src: "Quatrieme.jpg", 
             text: "Jamais, je ne cesserai de t'aimer, tant qu'il y a de la vie en moi " 
         }
     ];
@@ -138,4 +138,5 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.key === 'Escape') btnCloseSlideshow.click();
         }
     });
+
 });
