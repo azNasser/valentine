@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour toi, Iris ... <3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scene">
+        
+        <div id="heart-container">
+            <div class="heart"></div>
+        </div>
+
+        <div id="floating-elements-container" class="hidden">
+            <span class="float-item f1">🐱</span>
+            <span class="float-item f2">❤️</span>
+            <span class="float-item f3">💖</span>
+            <span class="float-item f4">😻</span>
+        </div>
+
+        <div id="card-container" class="hidden">
+            <div class="card">
+                <div class="card-content">
+                    <div class="flower-stamp">🌼</div>
+                    <div class="cute-decorations">
+                        <span class="cute-element decor-tl">💖</span>
+                        <span class="cute-element decor-tr">🐱</span>
+                        <span class="cute-element decor-bl">🌷</span>
+                        <span class="cute-element decor-br">❤️</span>
+                    </div>
+                    <h1>Veux-tu être ma Valentine ?</h1>
+                    <div class="buttons">
+                        <div id="btn-yes-wrapper">
+                            <button id="btn-yes">OUI</button>
+                        </div>
+                        <div id="btn-no-wrapper">
+                            <button id="btn-no">NON</button>
+                            <span class="shard left">NON</span>
+                            <span class="shard right">NON</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="final-card-container" class="hidden">
+            <div class="card">
+                <div class="card-content">
+                    <div class="flower-stamp">🌼</div>
+                    <img id="valentine-gif" src="https://media.giphy.com/media/MpeWJ9JyTyOm4/giphy.gif" alt="Amour">
+                    <div class="slideshow-trigger">
+                        <p>Dernière petite surprise ❤️</p>
+                        <button id="btn-open-slideshow">✨</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="slideshow-overlay" class="hidden">
+            <div class="slideshow-container">
+                <button id="btn-close-slideshow">✕</button>
+                <div class="slide-card">
+                    <div class="slide-image-wrapper">
+                        <img id="slide-img" src="" alt="Souvenir">
+                    </div>
+                    <p id="slide-text">...</p>
+                </div>
+                <div class="nav-buttons">
+                    <button id="prev-btn">❮</button>
+                    <button id="next-btn">❯</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
