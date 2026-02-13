@@ -2,19 +2,19 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const slidesData = [
         { 
-            src: "Premier.jpg", 
+            src: "premier.jpg", 
             text: "Merci d'être là pour moi" 
         },
         { 
-            src: "Deuxieme.jpg", 
+            src: "deuxieme.jpg", 
             text: "D'être aussi rayonante et précieuse" 
         },
         { 
-            src: "Troisieme.jpg", 
+            src: "troisieme.jpg", 
             text: "Ta présence est une bénédiction et un don du ciel" 
         },
         { 
-            src: "Quatrieme.jpg", 
+            src: "quatrieme.jpg", 
             text: "Jamais, je ne cesserai de t'aimer, tant qu'il y a de la vie en moi " 
         }
     ];
@@ -140,3 +140,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
